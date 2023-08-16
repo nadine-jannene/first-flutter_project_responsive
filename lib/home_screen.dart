@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+//hello1
 class HomeScreen extends StatelessWidget
 {
   @override
@@ -44,8 +44,10 @@ class HomeScreen extends StatelessWidget
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(
-                    20.0,
+                  borderRadius: BorderRadiusDirectional.only(
+                    topStart: Radius.circular(
+                      20.0,
+                    ),
                   ),
                 ),
                 clipBehavior: Clip.antiAliasWithSaveLayer,
@@ -99,4 +101,3 @@ class HomeScreen extends StatelessWidget
 
 }
 
-//hello2
